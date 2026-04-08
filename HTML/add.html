@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+      <div class="container-fluid p-0">
+        <a
+          class="navbar-brand text-bg-warning text-center"
+          mx-auto
+          p-2
+          style="width: 120px"
+          href="#"
+          >Show<strong>Trackr</strong>
+        </a>
+        <button
+          class="navbar-toggler me-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-muted px-3" href="intex.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-muted border-dotted px-3"
+              aria-current="page"
+              href="detail.html"
+              >Add</a
+            >
+          </li>
+        </ul>
+        <div
+          class="collapse navbar-collapse d-flex flex-row-reverse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link text-muted px-3"
+                href="login.html"
+                target="_parent"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-muted px-3" href="#">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- content -->
+    <section class="add">
+      <div class="headline">
+        <p>ADD TV SHOW</p>
+      </div>
+      <div class="mb-3">
+        <label for="Name" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="Name"
+          aria-describedby="TV SHOW"
+          placeholder="Enter TV show name"
+        />
+        <button type="submit" class="btn btn-primary">Add</button>
+      </div>
+    </section>
+  </body>
+</html>
