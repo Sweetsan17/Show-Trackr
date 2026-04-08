@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+      <div class="container-fluid p-0">
+        <a
+          class="navbar-brand text-bg-warning text-center"
+          mx-auto
+          p-2
+          style="width: 120px"
+          href="#"
+          >Show<strong>Trackr</strong></a
+        >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="intex.html"
+              target="_parent"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="add.html" target="_parent">Add</a>
+          </li>
+        </ul>
+        <div
+          class="collapse navbar-collapse d-flex flex-row-reverse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="login.html" target="_parent">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html" target="_parent">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- card -->
+    <div class="show-card">
+      <div class="show-poster">
+        <img src="..\ASSETS\Game of thrones.png" alt="Game of Thrones" />
+        <button class="subscribe-btn">Login to Subscribe</button>
+      </div>
+
+      <div class="show-details">
+        <div class="header-row">
+          <h1>Game of Thrones</h1>
+          <span class="rating">❤️ 9.5</span>
+        </div>
+
+        <p class="schedule">📅 Sunday 9:00 PM on HBO</p>
+
+        <p class="description">
+          Seven noble families fight for control of the mythical land of
+          Westeros. Friction between the houses leads to full-scale war...
+        </p>
+      </div>
+    </div>
+    <div class="del">
+      <p>The next episode starts in 2 months</p>
+    </div>
+
+    <div class="episodes-container">
+      <div class="section-header"><span class="icon">▤</span> EPISODES</div>
+
+      <div class="episode-item active">
+        <div class="episode-content">
+          <div class="title-row">
+            <span class="episode-title">Inside Game of Thrones</span>
+            <span class="season-info">Season 0, Episode 1</span>
+          </div>
+          <div class="timestamp">
+            <span class="clock-icon">🕒</span> 12/5/10 5:30 AM
+          </div>
+          <p class="description">
+            A short look into the film-making process for the production Game of
+            Thrones
+          </p>
+        </div>
+      </div>
+
+      <div class="episode-item">
+        <div class="episode-content">
+          <div class="title-row">
+            <span class="episode-title">15-Minute Preview</span>
+            <span class="season-info">Season 0, Episode 2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
