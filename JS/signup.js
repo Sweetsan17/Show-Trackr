@@ -3,10 +3,9 @@ const email = document.querySelector(`#email-address`);
 const password = document.querySelector(`#password`);
 let Success=true;
 
-form.removeEventListener(`submit`,(e)=>{
-    e.preventDefault();
+function click() {
     validateInputs();
-})
+}
 
 function validateInputs(){
     const emailVal = email.value.trim();
@@ -47,7 +46,7 @@ function setSuccess(element){
     const errorElement = inputGroup.querySelector(`.error`);
 
     errorElement.innerText = " ";
-    inputGroup.classList.add(`sucess`);
+    inputGroup.classList.add(`success`);
     inputGroup.classList.remove(`error`);
     
 }
