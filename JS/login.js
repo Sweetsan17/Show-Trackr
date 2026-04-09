@@ -10,5 +10,12 @@ form.removeEventListener(`submit`,(e)=>{
 function validateInputs(){
     const emailVal = email.value.trim();
     const passwordVal = password.value.trim();
+}
+
+function setError(element,message){
+    const inputGroup = element.parentElement;
+    const errorElement = inputGroup.querySelector(`.error`);
+
+    errorElement.innerText = message;
     
 }
