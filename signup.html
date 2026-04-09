@@ -75,7 +75,6 @@
               placeholder="Name"
               class="name-input"
               id="name"
-              required
             />
             <div class="error"></div>
           </div>
@@ -86,7 +85,6 @@
               name="email"
               id="email-address"
               placeholder="Email"
-              required
             />
             <div class="error"></div>
           </div>
@@ -97,7 +95,6 @@
               name="password"
               id="password"
               placeholder="Password"
-              required
             />
             <div class="error"></div>
           </div>
@@ -108,7 +105,9 @@
               <strong>Privacy Policy</strong>
             </p>
           </div>
-          <button type="submit" class="btn-signup">Signup</button>
+          <button type="submit" class="btn-signup" onclick="click()">
+            Signup
+          </button>
           <div class="links">
             <p>
               Already have an account?
@@ -120,6 +119,6 @@
         </form>
       </div>
     </section>
-    <script src="/js/signup.js"></script>
+    <script src="js/signup.js"></script>
   </body>
 </html>
